@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="sample.dog.addBone.title">骨を追加する</entry>
+    <entry key="sample.dog.addBone.p"> 子要素としてボーン要素を追加する</entry>
+</properties>

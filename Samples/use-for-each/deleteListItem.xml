@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="deleteListItem.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<ul>
+    <li>New item a</li>
+    <li>New item b</li>
+    <li>New item c</li>
+    <li>New item d</li>
+    <li>New item e</li>
+</ul>

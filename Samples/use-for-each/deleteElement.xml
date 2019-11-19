@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="deleteElement.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<root>
+    <a id="aNode"></a>
+    <b id="bNode"></b>
+    <c></c>
+</root>

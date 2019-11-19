@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqf:fixes xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+    xmlns="http://purl.oclc.org/dsdl/schematron" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <!-- Unwraps the current element content -->
+    <sqf:fix id="wrapWithElement" role="add">
+        <sqf:param name="parentElement" abstract="true"/>
+        <sqf:param name="childElement" abstract="true"/>
+        <sqf:description>
+            <sqf:title>Wrap '$childElement' element in a '$parentElement' element</sqf:title>
+            <sqf:p>Wrap the current '$childElement' element in a '$parentElement' element</sqf:p>
+        </sqf:description>
+        <sqf:replace node-type="element" target="$parentElement" select="."/>
+    </sqf:fix>
+
+    <!-- Unwraps the current element content -->
+    <sqf:fix id="unwrapElement" role="replace">
+        <sqf:param name="parentElement" abstract="true"/>
+        <sqf:param name="childElement" abstract="true"/>
+        <sqf:description>
+            <sqf:title>Unwrap '$childElement' element</sqf:title>
+            <sqf:p>Unwrap '$childElement' element by removing the '$parentElement' element.</sqf:p>
+        </sqf:description>
+        <sqf:replace match="parent::element()" select="node()"/>
+    </sqf:fix>
+
+    <!-- Merge two elements into current one -->
+    <sqf:fix id="mergeSiblings" role="replace">
+        <sqf:param name="element" abstract="true"/>
+        <sqf:description>
+            <sqf:title>Merge flowing '$element' element into current one</sqf:title>
+        </sqf:description>
+        <sqf:add position="last-child" select="following-sibling::element()[1]/node()"/>
+        <sqf:delete match="following-sibling::element()[1]"/>
+    </sqf:fix>
+
+    <!-- Rename $element and use the $newName -->
+    <sqf:fix id="renameElement" role="replace">
+        <sqf:param name="element" abstract="true"/>
+        <sqf:param name="newName" abstract="true"/>
+        <sqf:description>
+            <sqf:title>Rename '$element' in '$newName'</sqf:title>
+        </sqf:description>
+        <sqf:replace target="$newName" node-type="element" select="node()"/>
+    </sqf:fix>
+</sqf:fixes>

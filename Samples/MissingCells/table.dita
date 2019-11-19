@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="table.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="author-adding-media">
+  <title>Adding Video, Audio, and Embedded HTML Resources</title>
+  <body>
+    <p>You can insert references to media resources (such as videos, audio clips, or embedded HTML
+      frames) in your DITA, DocBook, or XHTML topics. The media resources can be played directly in
+        <uicontrol>Author</uicontrol> mode and in all HTML5-based outputs.</p>
+    <table frame="all">
+      <title>Supported Media Types</title>
+      <tgroup cols="4">
+        <colspec colname="c1" colnum="1" colwidth="1*" colsep="1" rowsep="1"/>
+        <colspec colname="newCol2" colnum="2" colwidth="2*" colsep="1" rowsep="1"/>
+        <colspec colname="c2" colnum="3" colwidth=".5*" colsep="1" rowsep="1" align="center"/>
+        <colspec colname="c3" colnum="4" colwidth="1.5*" colsep="1" rowsep="1"/>
+        <thead>
+          <row>
+            <entry>Media</entry>
+            <entry>Description</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>mp3</entry>
+            <entry>Moving Picture Experts Group Layer-3 Audio </entry>
+            <entry>audio</entry>
+          </row>
+          <row>
+            <entry>wav</entry>
+          </row>
+          <row>
+            <entry>pcm</entry>
+            <entry>audio</entry>
+            <entry>Width</entry>
+          </row>
+          <row>
+            <entry>embedded video</entry>
+            <entry>Embedded Iframe Code</entry>
+            <entry>iframe</entry>
+            <entry>Width &amp; Height</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <section id="adding-image-inline">
+      <title>Adding a Media Resource</title>
+      <p>To insert a media resource in a document, use the following procedure:</p>
+      <ol id="ol_eb4_q5d_xp">
+        <li>Place the cursor at the location where you want the media resource. </li>
+        <li>Select the Insert Media Resource action from the toolbar. A <uicontrol>Chose
+            Media</uicontrol> dialog box appears.</li>
+        <li>Select the URL for the media resource and click <uicontrol>Ok</uicontrol>.</li>
+      </ol>
+    </section>
+  </body>
+</topic>

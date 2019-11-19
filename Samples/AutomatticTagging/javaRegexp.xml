@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="javaRegexp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<reference id="reference_jqy_g5s_c5">
+    <title>A reference title</title>
+    <refbody>
+        <section id="wws_zzw_rw">
+            <p>Just some text for a dialog.</p>
+            <p>Just some text for a Dialog.</p>
+            <p>Just some text for a dialog box.</p>
+            <p>More text for a drop-down and something.</p>
+            <p>
+                <ul id="xjp_tcd_sw">
+                    <li>as necessary</li>
+                    <li>DIALOG and something else</li>
+                </ul>
+            </p>
+        </section>
+    </refbody>
+</reference>

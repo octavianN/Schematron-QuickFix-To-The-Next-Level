@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="linkTag.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="growing_flowers">
+   <title>Growing <b>Flowers</b></title>
+   <body>
+      <section><title>References</title><p>Most of the information was taken from
+               <i>http://www.wikipedia.org/</i> the free encyclopedia. </p>See also:<ul
+            id="ul_bhn_kgf_tt">
+            <li>https://en.wikipedia.org/wiki/Category:Horticulture_and_gardening</li>
+            <li>https://en.wikipedia.org/wiki/Plant_reproductive_morphology</li>
+            <li>http://wildflower.utexas.edu/</li>
+         </ul></section>
+   </body>
+</topic>
